@@ -1,0 +1,147 @@
+body {
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+table {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-spacing: 10px;
+    font-family: "Mali", cursive;
+    font-style: normal;
+    
+}
+h2{
+    font-family: "Sriracha", cursive ;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: #f1b100;
+    text-shadow:
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff;
+}
+td {
+    padding: 2px;
+  }
+
+.frameM {
+    border: 3px groove #fcde41;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(231,226,219,1) 0%, rgba(251,253,244,1) 100%);
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+    height: min-content;
+}
+span{
+    font-size: 15px;
+    line-height: 1.8;
+}
+.m{
+    border: 0;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+    width: auto;
+}
+.month{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #1c7b2c;
+    
+
+}
+.month-decem{
+    text-align: center;
+}
+.holiday {
+    display: inline-block;
+    width: 250px;
+}
+.calen{
+    font-size: 80px;
+    color: white;
+    text-shadow:
+        -6px 0 0 #017bed,
+        6px 0 0 #017bed,
+        0 -5px 0 #017bed,
+        0 6px 0 #017bed,
+        -4px -4px 0 #017bed,
+        5px -5px 0 #017bed,
+        -5px 5px 0 #017bed,
+        5px 6px 0 #017bed;
+    padding-right: 15px;
+}
+.year{
+    font-size: 90px;
+    color: #f16d11;
+    text-shadow:
+        -6px 0 0 #fff,
+        4px 0 0 #fff,
+        0 -5px 0 #fff,
+        0 5px 0 #fff,
+        -5px -5px 0 #fff,
+        5px -5px 0 #fff,
+        -5px 5px 0 #fff,
+        5px 6px 0 #fff;
+}
+.dataday{
+    text-align: left;
+    padding: 0;
+    vertical-align: top;
+}
+.today{
+    text-align: left;
+    padding: 0;
+    vertical-align: bottom;
+}
+.daynum{
+    font-family: "Sriracha", cursive ;
+    font-size: 60px;
+    color: #017bed;
+    padding-right: 10px;
+    margin: 10px;
+    padding: 2px;
+    
+}
+.days{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f16d11;
+    border-spacing: unset;
+    
+}
+.reason{
+    font-size: 20px;
+    font-weight: bold;
+    border-spacing: unset;
+    line-height: normal;
+}
+.mM{
+    border: 0;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    width: auto;
+    display: inline-block;
+    white-space: normal;
+}
+
